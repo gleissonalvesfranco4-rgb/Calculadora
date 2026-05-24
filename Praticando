@@ -1,0 +1,27 @@
+import os
+os.system('cls')
+#Calculadora em python
+
+#Projeto simples de calculadora feito em python
+#para praticar .
+
+
+print("===================")
+print("----calculadora----")
+
+operacao = input("Escolha (+, -, *, /): ")
+
+numero1 = float(input("Digite o primeiro número:"))
+numero2 = float(input("Digite o segundo número:"))
+
+if operacao == "+":
+    print("Resultado:", numero1 + numero2)
+
+if operacao == "-":
+    print("Resultado:", numero1 - numero2)
+
+if operacao == "*":
+    print("Resultado:", numero1 * numero2)
+
+if operacao == "/":
+    print("Resultado:", numero1 / numero2)
